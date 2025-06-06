@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+}
+
+.form {
+  background-color: antiquewhite;
+  width: 300px;
+  padding: 20px ;
+  margin: 9px;
+}
+
+.form_input {
+  margin: 3px;
+  padding: 10px;
+  
+}
