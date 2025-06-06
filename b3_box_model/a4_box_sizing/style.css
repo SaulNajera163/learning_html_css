@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+
+}
+h1,h2{
+  text-align: center;
+}
+
+.content-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-bottom: 10px;
+  /* Until here the 2 boxes are the same but if I added padding, border and margin this gonna change */
+  padding: 20px;
+  border: 10px solid black;
+  margin: 10px;
+}
+
+.border-box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+  border: 10px solid black;
+  margin: 10px;
+}
