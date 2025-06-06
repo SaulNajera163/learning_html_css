@@ -1,5 +1,6 @@
 body{
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-family: "Montserrat";
+    font-weight: 400;
 }
 
 h1{
@@ -50,4 +51,9 @@ p{
     background-color: aliceblue;
     padding: 2px;
     margin: 2px;
+}
+
+ul{
+    font-family: "Montserrat";
+    font-weight: 300;
 }

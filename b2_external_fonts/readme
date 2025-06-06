@@ -1,0 +1,19 @@
+Here I'll download the font, but we need to save it here in the code. I mean, like CSS, JS, and Python code, we are going to use the static path to use the font in the project. 
+
+Steps
+
+1.- Download the font
+
+2.- Move the file "static," rename it to "fonts," and save it in a new file "font," and here is where all our fonts live.
+
+3.- Create the "font.css" file to create all our new fonts because until here we just saved the fonts but never set them.
+
+4. This is the architecture:
+
+@font-face{
+    font-family: "Montserrat";
+    src: url(../font/fonts/Montserrat-Regular.ttf) format(truetype);
+    font-weight: 400;
+}
+
+5.- Call the new fonts in your style.css file.
