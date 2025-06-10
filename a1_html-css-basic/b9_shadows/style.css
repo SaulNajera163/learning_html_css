@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  width: 350px;
+  background-color: #e2e2e2;
+  height: 380px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 3px;
+  border-top: 10px solid black;
+  box-shadow: 0 0 40px #5557;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: #555;
+  text-shadow: 0 0 5px #f89;
+}
+
+p {
+  padding: 20px;
+  text-align: justify;
+  letter-spacing: 0.9px;
+  margin: 0;
+  color: #555;
+  text-shadow: 0 0 5px #f89;
+  font-size: 0.9rem;
+}

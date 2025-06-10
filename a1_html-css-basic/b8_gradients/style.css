@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  margin: auto;
+  margin-top: 30px;
+  width: 300px;
+  height: 350px;
+  background-color: black;
+  background: linear-gradient(#9998, transparent);
+  padding: 10px;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  border-radius: 4px;
+  border-top: 5px solid #999;
+}
+
+p {
+  padding: 15px;
+  color: #777;
+  text-align: justify;
+  margin: 0;
+  font-size: 0.7rem;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.container-img {
+  width: 300px;
+  height: 250px;
+  background-image: url(../a0_generals/img/montains.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  /* gradients to put the text */
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7)),
+    url(../a0_generals/img/montains.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;  /* Add this */
+    height: 250px;
+
+}
+
+.paragraph {
+    text-align: center;
+    color: white;
+    position: absolute;  /* Keep this */
+    bottom: 0;          /* Keep this */
+    width: 100%;        /* Add this to make text take full width */
+    padding: 20px;
+    /* Remove duplicate position declaration */
+}

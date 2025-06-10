@@ -1,0 +1,32 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #0f0;
+  margin: 5px;
+  margin: auto;
+}
+
+.box-one {
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+  margin: 5px auto;
+}
+
+.box-two {
+  width: 100px;
+  height: 100px;
+  background-color: #00f4;
+  margin: 5px auto;
+}
+
+.box-three {
+  width: 100px;
+  height: 100px;
+  background-color: #0004;
+  margin: 5px auto;
+}
+
+p span {
+  font-style: italic;
+}

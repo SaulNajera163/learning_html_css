@@ -1,0 +1,16 @@
+body {
+  background-color: antiquewhite;
+  font-family: sans-serif;
+}
+
+.box {
+    background-color: aqua;
+  width: 800px;
+  height: 800px;
+  margin: 90px;
+  background-image: url(../a0_generals/img/montains.png);
+
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+}

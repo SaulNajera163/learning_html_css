@@ -1,0 +1,55 @@
+body{
+font-family: "Montserrat",sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+
+}
+
+h2 {
+    text-align: center;
+
+}
+
+.available{
+}   
+
+.unavailable{
+    text-decoration: line-through;
+}   
+
+
+.free{
+    color: green;
+}
+
+.no-free{
+    color: rgb(156, 26, 26);
+}
+
+p{
+    line-height: 1.5;
+    font-size: 13px;
+    text-align: justify; /* Space in each rows */
+    letter-spacing: 2px; /* Space between the words */
+}
+
+.welcome{
+    background-color: antiquewhite;
+    padding: 2px;
+}
+
+.welcome p{
+    margin: 30px;
+}
+
+
+.main{
+    background-color: aliceblue;
+    padding: 2px;
+    margin: 2px;
+}

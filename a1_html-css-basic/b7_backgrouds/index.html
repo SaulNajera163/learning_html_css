@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Backgrounds</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>You can use cover or contain</h1>
+    <p>
+      choose it when the image itself is critical (logos, diagrams,
+      screenshots). The browser scales the graphic so the whole thing fits in
+      the box without cropping. You may see blank bands if the aspect ratios
+      differ, but every pixel remains visible.
+    </p>
+    <p>
+      use it for decorative or atmospheric images (hero banners, card
+      thumbnails). The browser enlarges the picture until the box is completely
+      filled; if the aspect ratios don’t match, the extra area is clipped,
+      hiding whatever falls outside the box edges
+    </p>
+    <ul>
+      <li>Must see the whole image? → contain</li>
+      <li>Must fill the space, cropping is fine? → cover</li>
+      <li><strong>If you use cover, doesn't need bg-repeat</strong></li>
+    </ul>
+
+    <div class="box">
+      <p>This space is 'cause we use contain and put in all the image and it won't crop it</p>
+    </div>
+  </body>
+</html>

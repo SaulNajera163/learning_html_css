@@ -1,0 +1,68 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+
+  background: url("../../a0_generals/img/montains.png") center / cover no-repeat fixed;
+}
+
+.card {
+  width: min(90%, 26rem);
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+
+  background: rgba(0, 0, 0, 0.50);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.field {
+  width: 100%;
+  padding: 0.8rem 0;
+  margin-bottom: 1.4rem;
+
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+
+  font-size: 1rem;
+  color: #fff;
+  outline: none;
+}
+
+.field::placeholder {
+  color: #e2e2e2;
+  opacity: 0.9;
+}
+
+
+.btn {
+  width: 20%;
+  padding: 0.9rem 0;
+  border: none;
+  border-radius: 0.4rem;
+  background: #1667b9;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease-in;
+}
+.btn:hover {
+  background: #26d326;
+}
