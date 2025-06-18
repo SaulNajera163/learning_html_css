@@ -1,0 +1,97 @@
+body {
+  font-family: sans-serif;
+  color: #eee;
+  background-color: #222;
+  /*   background: linear-gradient(to bottom, #333, #000);
+ */
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 10px;
+  font-size: 22px;
+}
+
+form {
+  background-color: transparent;
+  padding: 20px 0;
+  max-width: 500px; /* How much the container can be increase but with a limit, this can be short as 100,200,300px but the maximum is 700px */
+  margin: auto; /* Just when we need to centralized horizontal */
+  box-shadow: 0px 0px 35px #fff2;
+  margin-top: 40px;
+  border-radius: 7px;
+  padding-bottom: 50px;
+}
+
+.form_input {
+  padding: 6px 20px;
+}
+
+input,
+textarea,
+select,
+datalist {
+  margin-top: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 12px;
+  border: 1px solid #666;
+  border-radius: 4px;
+  box-shadow: 0px 0px 20px #0002;
+  background-color: transparent;
+  color: #eee;
+}
+
+textarea {
+  min-width: 100%;
+  resize: none;
+  font-family: sans-serif;
+  min-height: 100px;
+}
+
+option,
+select {
+  background-color: #222;
+}
+
+fieldset {
+  border-radius: 4px;
+  border: 1px solid #666;
+  padding: 10px 20px;
+  margin: 20px;
+}
+
+legend {
+  margin-bottom: 10px;
+  padding: 0 5px;
+  color: #777;
+}
+
+.conditions {
+    display: flex;
+    align-items: center;  /* Changed from 'end' to 'center' */
+    gap: 8px;
+    background-color: transparent;
+    border: none;
+}
+
+.conditions p {
+    margin: 0 10;  /* Remove paragraph margins */
+}
+
+/* Also add this to prevent checkbox stretching */
+input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+.conditions label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;  /* Makes text clickable */
+}

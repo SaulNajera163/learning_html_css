@@ -1,4 +1,37 @@
-details{
-    margin: 30px;
-    background-color:antiquewhite ;
+body {
+  font-family: sans-serif;
+  background-color: #000c;
+}
+
+section {
+  width: 800px;
+  min-height: 300px;
+  padding: 20px;
+  background-color: antiquewhite;
+  margin: 20px auto;
+  border-radius: 6px;
+}
+
+summary {
+  min-width: 100%;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+details {
+  margin: auto;
+  max-width: 600px;
+  background-color: #9996;
+  padding: 20px;
+  font-weight: 200;
+  font-size: 20px;
+  border-left: 10px solid #0005;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+details[open] p{
+  background-color: #999c;
+  color: #333;
+  background-color: transparent ;
 }
