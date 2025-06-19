@@ -71,16 +71,12 @@ legend {
   color: #777;
 }
 
-.conditions {
-    display: flex;
-    align-items: center;  /* Changed from 'end' to 'center' */
-    gap: 8px;
-    background-color: transparent;
-    border: none;
-}
 
-.conditions p {
-    margin: 0 10;  /* Remove paragraph margins */
+.conditions {
+  margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Also add this to prevent checkbox stretching */
@@ -92,6 +88,11 @@ input[type="checkbox"] {
 .conditions label {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     cursor: pointer;  /* Makes text clickable */
+}
+
+a{
+  text-decoration: none;
+  color: rgb(88, 158, 161);
 }

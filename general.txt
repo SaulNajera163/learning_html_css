@@ -5,3 +5,12 @@
       rel="shortcut icon"
       href="/a2_html-css-advance/a0_generals/img/favicon.ico"
     />
+
+
+    This three line always make the container adaptative
+      width: 90%;
+      max-width: 800px;
+      box-sizing: border-box
+
+      Any link that we need to add our own pago always
+      <a href="terms_conditions.html" rel="noopened nofollow noreferrer" target="_blank" >terms and conditions</a>

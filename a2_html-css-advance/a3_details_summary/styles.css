@@ -4,12 +4,14 @@ body {
 }
 
 section {
-  width: 800px;
+  width: 90%; /* Always take 90% of the window(viwewport) */
+  max-width: 800px; /* Limit 800px */
   min-height: 300px;
   padding: 20px;
   background-color: antiquewhite;
-  margin: 20px auto;
+  margin: 20px auto; /* 20 top and bottom  */
   border-radius: 6px;
+  box-sizing: border-box;
 }
 
 summary {
@@ -19,8 +21,9 @@ summary {
 }
 
 details {
-  margin: auto;
-  max-width: 600px;
+  width: 100%; /* Always all section box */
+  margin: auto; /* centralize */
+  max-width: 90%; /* Increse with the father box but 90% */
   background-color: #9996;
   padding: 20px;
   font-weight: 200;
@@ -28,6 +31,7 @@ details {
   border-left: 10px solid #0005;
   border-radius: 4px;
   margin-top: 10px;
+  box-sizing: border-box;
 }
 
 details[open] p{
