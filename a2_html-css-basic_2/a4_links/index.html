@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links</title>
+    <link rel="stylesheet" href="../a0_generals/css/normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/a2_html-css-advance/a0_generals/img/favicon.ico" />
+    <link
+      rel="shortcut icon"
+      href="/a2_html-css-advance/a0_generals/img/favicon.ico"
+    />
+  </head>
+  <body>
+    <form>
+      <h2>Contact Form</h2>
+      <fieldset>
+        <legend>Basic Inputs</legend>
+        <!-- Normal input -->
+        <div class="form_input">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Veronica L." />
+        </div>
+        <div class="form_input">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="veronica@gmail.com" />
+        </div>
+        <div class="form_input">
+          <label for="number">Telefone</label>
+          <input type="tel" id="number" placeholder="477545721" />
+        </div> 
+      </fieldset>
+
+      <fieldset>
+        <legend>List Types</legend>
+        <!-- List select-option -->
+        <div class="form_input">
+          <label for="country">Country</label>
+          <select id="country" name="country-user">
+            <option value="mx">Mexico</option>
+            <option value="us">EEUU</option>
+            <option value="arg">Argentina</option>
+          </select>
+        </div>
+
+        <!-- DataList-->
+        <div class="form_input">
+          <label for="reference">User Type</label>
+          <input type="text" list="userTypes" id="reference" name="reference" />
+          <datalist id="userTypes">
+            <option value="Friend">I asked you to check my page</option>
+            <option value="Freelance">Idependent developer</option>
+            <option value="Enterprise">A IT professional Enterprise</option>
+            <option value="Community">You belog to a team</option>
+          </datalist>
+        </div>
+      </fieldset>
+      <!-- Text Area -->
+      <div class="form_input">
+        <label for="message">Message</label>
+        <textarea
+          name="area"
+          id="message"
+          maxlength="200"
+          rows="6"
+          placeholder="Your advices..."
+        ></textarea>
+      </div>
+      <!-- Submit -->
+      <div class="form_input">
+        <input type="submit" value="Send" />
+      </div>
+
+      <div>
+        <div class="conditions">
+          <label>
+            <input type="checkbox" />
+            <span>I agree to the <a href="terms_conditions.html" rel="noopened nofollow noreferrer" target="_blank" >terms and conditions</a></span>
+          </label>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
