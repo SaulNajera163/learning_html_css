@@ -1,5 +1,5 @@
 body {
-  font-family: sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #eee;
   background-color: #222;
   /*   background: linear-gradient(to bottom, #333, #000);
@@ -50,6 +50,8 @@ textarea {
   resize: none;
   font-family: sans-serif;
   min-height: 100px;
+  /* Adapting using inheritance  */
+  font-family: inherit;
 }
 
 option,

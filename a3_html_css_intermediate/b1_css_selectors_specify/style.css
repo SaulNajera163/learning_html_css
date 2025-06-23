@@ -1,0 +1,76 @@
+body {
+  background-color: #8881;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #222;
+  padding: 10px;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+/* Attribute */
+img[src="saul.png"] {
+  width: 100%;
+}
+
+/* descendant (son) */
+.first-style ol li {
+  font-style: italic;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.first-style ol li span {
+  color: green;
+}
+
+/* Span must be a direct soon of ol to work */
+.first-style ol > span {
+  color: aqua;
+}
+
+/* Next to (first) */
+.first-style h3 + p {
+  color: #777;
+}
+/* Next to(all next to) */
+.first-style h3 ~ p {
+  font-style: italic;
+}
+
+/* We using the second style section to indicate specify */
+
+/*
+ * Levels of the specify
+ 3.- Global selector (h1,p,ol,span,img)
+ 2.- Class using .
+ 1.- ID using #
+ */
+.second__style h2 {
+  text-align: center;
+}
+
+.second__style h3 {
+  color: blue;
+}
+
+.second__style .header__three {
+  color: red;
+}
+
+.second__style #header__three__id {
+  color: #444;
+}
+
+.second__style h3 {
+  color: gray !important;
+}

@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+header {
+  width: 90%;
+  text-align: center;
+}
+
+header img {
+  width: 300px;
+  height: 200px;
+}
+
+main {
+  padding: 10px;
+  margin: 30px auto;
+  width: 90%;
+  margin-top: 20px;
+}
+
+h1:hover {
+  color: rgb(151, 171, 21);
+}
+
+img:active {
+  width: 400px;
+  height: 300px;
+}
+
+ol li:first-child {
+  color: red;
+}
+ol li:last-child {
+  color: aqua;
+}
+
+ol li:nth-child(3) {
+  color: rgb(75, 222, 75);
+}
+
+/*
+ 
+ol li:nth-child(2n){ --> n is 2 yes and later 2 not
+    color: rgb(75, 222, 75);
+}
+ */
+
+ol li:nth-child(2):active {
+  color: blue;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+th {
+  background-color: #3332;
+}
+
+tr:nth-child(2n) {
+  background-color: #3332;
+}
+
+tr:active{
+      background-color: #3336;
+
+}
