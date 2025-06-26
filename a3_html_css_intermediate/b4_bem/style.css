@@ -20,4 +20,35 @@ h1{
     
 }
 
+a{
+    text-decoration: none;
+    color: #2d66af;
+}
+
+.list{
+    padding: 10px 30px ;
+    border: 3px solid black;
+    margin: 20px;
+    list-style: square ;
+    border-radius: 5px;
+}
+
+.list--shoes{
+    background-color: antiquewhite;
+    
+}
+
+.list__item{
+    color: green;
+}
+
+.item--unavailable{
+    color: red;
+}
+
+
+
+
+
+
 
