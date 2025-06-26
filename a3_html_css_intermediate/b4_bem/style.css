@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.container{
+    padding: 20px;
+    margin: 10px;
+    border: .5px solid transparent;
+    border-radius: 3px;
+    box-shadow: 0 2px 15px #666f;
+    box-sizing: border-box;
+    
+    
+
+}
+
+h1{
+    text-align: center;
+    
+}
+
+

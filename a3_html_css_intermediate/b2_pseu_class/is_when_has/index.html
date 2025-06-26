@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Is, When and Has</title>
+    <link rel="stylesheet" href="stylle.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Is, When and Has</h1>
+      <p class="is">
+        is -> created a new group and doesn't care if is outside the section of
+        the first class, it's just care created a new group with all the classes
+        added and applied the properties. In this example the three first
+        element at in the same section but the last is in other container and is
+        working.
+      </p>
+      <p class="where">
+        Where do the same but with a specify of 1 and is with 2.
+      </p>
+      <p class="has">
+        Has is totally different because firstly the rule is added to the
+        father, in this case <strong>section</strong> and if the section has
+        <strong>element_four</strong> it's going to happened something like
+        change the background for all the section, but always first check if the
+        father has the classes or selectors.
+      </p>
+
+      <div class="container_input_email">
+        <div class="email_input">
+          <label class="email_label_valided"
+            >Email
+            <input class="email_input_valided" type="email" name="" id="" />
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="list">
+        <ul>
+          <li class="element_one">Element 1</li>
+          <li>Element 2</li>
+          <li>Element 3</li>
+          <li class="element_four">Element 4</li>
+          <li>Element 5</li>
+          <li>Element 6</li>
+          <li class="element_seven">Element 7</li>
+          <li>Element 8</li>
+          <li>Element 9</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <ol>
+          <li>AWS</li>
+          <li>Google Cloud</li>
+          <li>Oracle</li>
+          <li class="cloud_element">IBM</li>
+          <li>Azure</li>
+        </ol>
+      </div>
+    </section>
+  </body>
+</html>

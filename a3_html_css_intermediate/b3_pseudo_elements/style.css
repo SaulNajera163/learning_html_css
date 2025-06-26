@@ -1,0 +1,29 @@
+section{
+    padding: 20px;
+}
+
+h1::first-letter{
+    color: red;
+    font-size: 40px;
+    font-style: italic;
+}
+
+
+p::first-line{
+    font-style: italic;
+}
+
+input::placeholder{
+    font-style: italic;
+}
+li::marker{
+    color: aqua;
+}
+
+li::before{
+    content: "Before -> ";
+}
+
+li::after{
+    content: " <-- After";
+}
