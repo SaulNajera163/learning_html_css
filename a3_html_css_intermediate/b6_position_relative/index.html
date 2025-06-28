@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Relative Position</title>
+    <!-- Standard favicon, preferred format -->
+    <link
+      rel="icon"
+      href="../b0_generals/img/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Legacy IE fallback (optional, but harmless) -->
+    <link
+      rel="shortcut icon"
+      href="../b0_generals/img/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- PNG fallback for browsers that don’t support .ico -->
+    <link
+      rel="icon"
+      href="../b0_generals/img/favicon_backup.png"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>What does Relative Position mean?</h1>
+      <p>
+        Remember it's just the form that we want to move elements and how we
+        need to distribute and take referents as a father for the other
+        elements. In easy words with Position <strong>Relative</strong> the
+        place is reserved, the element can be moving for all the display but
+        it's space never be occupied for other element and more important, it's
+        measures as margin, padding is gonna taking refers for it's space/place
+        even the element is not in it's place. 
+      </p>
+      <h3>Easy Words</h3>
+      <p class="paragraph">When we use relative position we're saying "Ey browser please occupied this place and I'm going to move based in this position and I can move on in the 5 directions top, bottom, left, right and z-index to indicate who is more important and is gonna move to the front layer. And Remember, any element or block that is relative is gonna be make as a relationship with other element that is gonna be absolute obviously the element is inside the relative element.</p>
+    </header>
+    <section class="container">
+      <div class="box">Layer 1</div>
+
+      <div class="box box--relative">Layer 2</div>
+
+      <div class="box box--three">Layer 3</div>
+    </section>
+
+    <footer>
+      <section class="footer__text">
+        <p>
+            <strong>background-size:</strong>
+           cover; makes the image fill the entire area, cropping
+          parts if needed to keep the aspect ratio.
+          <strong>background-size: </strong> contain;
+          makes the whole image visible, fitting it inside the area without
+          cropping, but may leave empty space (background color) if the aspect
+          ratios don’t match.
+        </p>
+      </section>
+      <section class="footer__img">
+        
+      </section>
+    </footer>
+  </body>
+</html>

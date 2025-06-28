@@ -1,0 +1,5 @@
+Remember that Display is just the form that we can sort or distribute the different elements and how we can add margin, padding, width and height.
+
+Inline -> by default for many different elements and is just all elements in one line one next to the other and just take the space that is necessary and is so important with this display you CAN NOT applied margin, padding, width and height.
+
+Block -> by default for many different elements but in this case one element can take all the space for itself even the value of the element is small, they're going to take all the space and here the different margin, padding, width and height it can be applied.
