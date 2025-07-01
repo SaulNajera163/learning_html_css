@@ -1,0 +1,35 @@
+body{
+    background-color: #ccc9;
+}
+
+img{
+    width: 550px;
+    height: 450px;
+    margin: 40px;
+    border: 3px solid #000;
+    background-color: antiquewhite;
+
+    object-fit: contain;
+    object-position: center;
+    
+    /*
+     * Es lo mismo que background-size en cover para rellenar todo o containe para meter la imagen al menos una vez adaptanadose a los valroes 
+     */
+}
+
+img:hover{
+    outline: 20px solid white;
+    outline-offset: 10px; /* Se da un espacio de 10px */
+    /*
+     * El outline es solo un pequeño border dentro del margin y border nomal, no ocupa espacio y se puede eliminar siempre y cuando se use dentro de un focus-invisible
+     */
+}
+
+input{
+    border: none;
+    border-left: 6px solid #0006;
+}
+
+input:focus-visible{
+    outline: none; 
+}

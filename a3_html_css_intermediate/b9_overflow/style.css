@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  background-color: #aaa8;
+}
+
+.box {
+  position: relative;
+  left: 0;
+  margin: 80px auto;
+  width: 400px;
+  height: 300px;
+  border: 2px solid #000a;
+  background-color: antiquewhite;
+  overflow: auto;
+}
+
+h1{
+    text-wrap: balance;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+  text-wrap: pretty;
+}

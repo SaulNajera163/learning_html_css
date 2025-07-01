@@ -1,29 +1,52 @@
-body{
-    font-family: sans-serif;
-    background-color: #ccc;
+body {
+  font-family: sans-serif;
+  background-color: #ccc;
 }
 
-.box{
-    width: 200px;
-    height: 200px;
-    background-color: #000;
-    color: #fff;
-    position: absolute;
-    top:0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-    font-weight: bold;
-
-    transition-property: background-color, color;
-    transition-duration: 1s;
+.container--one {
+  width: 500px;
+  height: 390px;
+  background-color: aliceblue;
+  margin: 30px;
 }
 
-.box:hover{
-    background-color: #fff;
-    color: #000;
-    
+.container--two {
+  min-width: 80%;
+  min-height: 390px;
+  background-color: aliceblue;
+  margin: 30px;
 }
 
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  margin: 40px 150px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+
+  transition-property: background-color, color;
+  transition-duration: 1s;
+}
+
+.box:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.transition {
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+  color: #fff;
+  transition: left 1s;
+  position: relative;
+  left: 50px;
+}
+
+.container--two:hover .transition{
+    left:650px;
+}
