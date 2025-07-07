@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  background-color: #ccc7;
+}
+
+.container {
+  background-color: antiquewhite;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: 100px;
+  height: 60px;
+  margin: 10px;
+  background-color: rgba(223, 38, 38, 0.333);
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.flex-item:nth-child(2n) {
+  background-color: rgba(223, 38, 38, 1);
+}
+
+.exp {
+border-left: 20px solid #ccc9;
+  background-color: #faebd2;
+  padding: 15px;
+  margin-top: 80px;
+  font-size: 17px;
+  line-height: 1.5;
+  text-align: justify;
+  letter-spacing: .5px;
+
+}
+
+h1{
+    text-align: center;
+}
