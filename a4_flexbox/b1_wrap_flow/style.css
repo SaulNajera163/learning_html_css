@@ -9,7 +9,7 @@ body {
 
 .flexbox {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .flex-item {
@@ -28,17 +28,21 @@ body {
 }
 
 .exp {
-border-left: 20px solid #ccc9;
+  border-left: 20px solid #ccc9;
   background-color: #faebd2;
   padding: 15px;
   margin-top: 80px;
   font-size: 17px;
   line-height: 1.5;
   text-align: justify;
-  letter-spacing: .5px;
-
+  letter-spacing: 0.5px;
 }
 
-h1{
-    text-align: center;
+.exp_paragraph,
+span {
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
 }

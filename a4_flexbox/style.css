@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 30;
     font-family: sans-serif;
 }
 
@@ -24,4 +24,9 @@ body{
 
 .flex-item:nth-child(2n){
     background-color: #123a;
+}
+
+.flex-item:hover{
+    background-color: #ccc;
+    color: black;
 }
