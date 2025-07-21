@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+div,
+section,
+body {
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+}
+
+.container__min_max {
+  width: auto;
+  height: auto;
+  background-color: antiquewhite;
+  margin-bottom: 40px;
+}
+
+.block__max {
+  margin: auto;
+  max-width: 90%;
+  /* I don't give a damn but you always measure max 90% */
+  min-width: 200px;
+  /* If your screen is small I don't give a damn always i'll take 900px */
+  min-height: 100px;
+  /* min 100 but you feel free to use more if you need */
+  background-color: #b5a;
+  border: 4px solid black;
+}
+
+/* Correct form using all learned */
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.paragraph {
+  box-sizing: border-box;
+
+  border: 2px solid #000;
+  min-width: 250px; /* will never shrink below 250px */
+  max-width: 350px; /* will never grow above 350px */
+  background-color: #7bf;
+  flex: 1; /* grow and shrink equally, starting from zero basis */
+  font-size: 12px;
+  text-align: justify;
+  padding: 4px;
+  margin: 4px;
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+div,
+body {
+  box-sizing: border-box;
+}
+
+img{
+    max-width: 100%; /* Always take the 100% but the image not the page */
+    height: auto;
+}
+
+/* Videos */
+
+.container__video{
+    max-width: 100%;
+    aspect-ratio: 16/9;
+}
+
+video{
+    max-width: 100%;
+}
