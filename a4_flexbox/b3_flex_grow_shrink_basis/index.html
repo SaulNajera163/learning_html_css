@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Basis, Shrink and Grow</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grow">
+      <section class="explanation">
+        <h1>What is Flex-grow?</h1>
+        <p class="paragraph">
+          It's just the form in how you gonna distribute the space per element,
+          in this case we have 7 pieces, the first with 1, second with 2 and the
+          three with 4, and your gonna take the container, cut in 7 pieces and
+          distribute based on the flex-grow.
+          <br />
+          Works best when you do not set a fixed width on the flex items. If you
+          set width or max-width, you limit how much the items can grow.
+          <span>
+            Note: If you have a specific width with px, this not gonna be
+            applied, just for min/max and auto.
+            <br />
+            Based on the free space!
+          </span>
+        </p>
+      </section>
+
+      <div class="container">
+        <div class="element element_one">1</div>
+        <div class="element element_two">2</div>
+        <div class="element element_three">3</div>
+      </div>
+    </div>
+<hr>
+    <div class="shrink">
+      <section class="explanation">
+        <h1>What is Flex-sheink?</h1>
+        <p class="paragraph">
+          It's just the form in how you gonna smaller each element and it's so similar to grow because the form to use is flex-shrink and with the same number, 1, 2, 3 but here is how much is gonna smaller.
+
+        </p>
+      </section>
+
+      <div class="container container_shrink">
+        <div class="element shrink_one">1</div>
+        <div class="element shrink_two">2</div>
+        <div class="element shrink_three" >3</div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
