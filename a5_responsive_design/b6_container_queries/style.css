@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* Here we add the basic setting as what measure we'll take to applied it. 
+   Which is going to be the name for the container 'cause we can have too many.
+*/
+.container {
+  container-type: inline-size;
+  container-name: main;
+}
+
+p {
+  font-size: 8px;
+}
+
+@container main (max-width:600px) {
+  p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 15px;
+    background-color: aliceblue;
+    text-align: justify;
+    margin: 20px;
+    border-left: 20px solid #ccc9;
+    box-shadow: 0 0 10px 0 #ccc;
+    border-radius: 5px;
+  }
+}
+
+/* The container queries just applied to their directly children. */
+@media (max-width: 900px) {
+  body {
+    background-image: url(../../x1_general/img/png/laptop_1920x1080_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+}
