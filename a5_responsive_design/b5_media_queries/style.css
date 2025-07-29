@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: antiquewhite;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3px;
+  box-sizing: border-box;
+}
+
+.flex-box {
+  text-align: center;
+  padding: 5px;
+  min-width: 100px;
+  max-width: 300px;
+  min-height: 90px;
+  background-color: azure;
+  border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+  .flex {
+    gap: 10px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center; /* Optional: center column content */
+  }
+}

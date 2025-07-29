@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SRCSET and Sizes</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+        <!-- min-width == if the image measure at least 800px or more, you can applied... -->
+      <img
+        src="img/laptop_480.jpg"
+        srcset="
+          img/laptop_480.jpg   480w,
+          img/laptop_768.jpg   768w,
+          img/laptop_1280.jpg 1280w
+        "
+        sizes="(min-width: 1280px) 1280px,
+         (min-width: 768px) 768px,
+         480px"
+        alt="SN Solutions logo"
+      />
+    </div>
+  </body>
+</html>

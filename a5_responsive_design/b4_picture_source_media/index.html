@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picture, source and media</title>
+    <!-- Standard favicon, preferred format -->
+    <link
+      rel="icon"
+      href="../../x1_general/img/ico/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- PNG fallback for browsers that don’t support .ico -->
+    <link
+      rel="icon"
+      href="../../x1_general/img/png/favicon.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <picture>
+      <!-- Desktop - large image in WebP -->
+      <source
+        srcset="../../x1_general/img/webp/laptop_1280.webp"
+        type="image/webp"
+        media="(min-width: 1280px)"
+      />
+      <!-- Tablet - medium image in WebP -->
+      <source
+        srcset="../../x1_general/img/webp/laptop_768.webp"
+        type="image/webp"
+        media="(min-width: 768px)"
+      />
+      <!-- Phone - small image in WebP -->
+      <source
+        srcset="../../x1_general/img/webp/laptop_480.webp"
+        type="image/webp"
+      />
+
+      <!-- Fallbacks (non-WebP support) -->
+      <!-- Desktop fallback -->
+      <source
+        srcset="../../x1_general/img/png/laptop_1280.jpg"
+        media="(min-width: 1280px)"
+      />
+      <!-- Tablet fallback -->
+      <source
+        srcset="../../x1_general/img/png/laptop_768.jpg"
+        media="(min-width: 768px)"
+      />
+      <!-- Phone fallback -->
+      <img
+        src="../../x1_general/img/png/laptop_480.jpg"
+        alt="SN Solutions logo"
+      />
+    </picture>
+  </body>
+</html>
