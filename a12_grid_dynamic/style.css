@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+.container--main {
+  display: grid;
+}
+
+.container--one {
+  display: grid;
+  background-color: #ccc9;
+  grid-template-columns: repeat(auto-fit,minmax(150px,250px));
+  grid-template-rows: repeat(3, 1fr);
+  /* Extra element applied but in Columns */
+  /*
+     grid-auto-flow: column;
+  grid-auto-columns: 90px; 
+   */
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(75px,200px);
+
+
+hr {
+  margin: 20px;
+}
+
+.container--two {
+  display: grid;
+  background-color: #ccc9;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.container--item {
+  background-color: #48e;
+  margin: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
