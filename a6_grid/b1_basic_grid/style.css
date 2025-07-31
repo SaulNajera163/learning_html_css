@@ -5,8 +5,11 @@ body{
 
 .grid{
     display: grid;
-    grid-template-columns: 30% 70%;
-    grid-template-rows: auto 120px 35px;
+    /* Here we'll created the number of columns that we want. */
+    grid-template-columns: repeat(3,1fr);
+        /* Here we'll created the number of rows that we want. */
+    grid-template-rows: auto auto auto;
+    background-color: antiquewhite;
 }
 
 .grid--item{
@@ -17,4 +20,11 @@ body{
     color: #fff;
     font-size: 20px;
     border: 1px solid red;
+}
+
+
+.grid--fuctions{
+    margin-top: 50px;
+    background-color: #ccc;
+
 }
