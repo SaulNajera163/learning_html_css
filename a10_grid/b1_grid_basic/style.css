@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid--basic{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(100px,300px))  ; /* 2fr 1fr 4fr */
+    grid-template-rows: auto auto 200px;
+    gap: 10px;
+    margin: 10px;
+}
+
+
+.grid--element{
+    border: 1px solid red;
+    background-color: #48e;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+
+
+}

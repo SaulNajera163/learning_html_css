@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>When you don't created new columns/rows</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Standard favicon, preferred format -->
+    <link
+      rel="icon"
+      href="../../x1_general/img/ico/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- PNG fallback for browsers that don’t support .ico -->
+    <link
+      rel="icon"
+      href="../../x1_general/img/png/favicon.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <section class="explanation">
+      <h3>
+        What append when there are more elements and not sufficient
+        columns/rows?
+      </h3>
+      <p>
+        This happen so usually, in this example I created 9 element but I
+        distributed in 3 columns and 3 rows that is sufficient but when I
+        increase the elements grid even handle them has a grid distributed but
+        we can design the size with the property grid-auto-rows for the element
+        that are out side the original design for example, in the original we
+        have 3 equals columns and each column size minimum 50px as width and
+        maximum 200px but the latest 4 can size just measure 90px for height
+        because we need to remember that, here we're handling a table with 2
+        dimensions so the width for each element is at least 50px as 200px but
+        the height is always 60px but using grid-auto-rows now values 90px
+      </p>
+    </section>
+
+    <div class="grid">
+      <div class="grid--item">1</div>
+      <div class="grid--item">2</div>
+      <div class="grid--item">3</div>
+      <div class="grid--item">4</div>
+      <div class="grid--item">5</div>
+      <div class="grid--item">6</div>
+      <div class="grid--item">7</div>
+      <div class="grid--item">8</div>
+      <div class="grid--item">9</div>
+      <div class="grid--item extra">extra</div>
+      <div class="grid--item extra">extra</div>
+      <div class="grid--item extra">extra</div>
+      <div class="grid--item extra">extra</div>
+    </div>
+  </body>
+</html>
