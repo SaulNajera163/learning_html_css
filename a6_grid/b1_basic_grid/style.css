@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.grid{
+    display: grid;
+    /* Here we'll created the number of columns that we want. */
+    grid-template-columns: repeat(3,1fr);
+        /* Here we'll created the number of rows that we want. */
+    grid-template-rows: auto auto auto;
+    background-color: antiquewhite;
+}
+
+.grid--item{
+    text-align: center;
+    background-color: #48e;
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid red;
+}
+
+
+.grid--fuctions{
+    margin-top: 50px;
+    background-color: #ccc;
+
+}
