@@ -5,6 +5,7 @@ body{
 
 .grid--basic{
     display: grid;
+    justify-content: space-evenly;
     grid-template-columns: repeat(4,minmax(100px,300px))  ; /* 2fr 1fr 4fr */
     grid-template-rows: auto auto 200px;
     gap: 10px;
