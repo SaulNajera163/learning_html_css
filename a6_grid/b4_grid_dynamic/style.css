@@ -3,39 +3,82 @@ body {
   margin: 20px;
 }
 
-.container--main {
+.container {
+  box-sizing: border-box;
   display: grid;
-}
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(3, 80px);
+  grid-auto-flow: row;
+  grid-auto-rows: 50px;
+  grid-auto-columns: 100px;
 
-.container--one {
-  display: grid;
+  margin-top: 30px;
+  gap: 20px;
+  padding: 20px;
   background-color: #ccc9;
-  grid-template-columns: repeat(auto-fit,minmax(150px,250px));
-  grid-template-rows: repeat(3, 1fr);
-  /* Extra element applied but in Columns */
-  /*
-     grid-auto-flow: column;
-  grid-auto-columns: 90px; 
-   */
-    grid-auto-flow: column;
-    grid-auto-columns: minmax(75px,200px);
-
-
-hr {
-  margin: 20px;
-}
-
-.container--two {
-  display: grid;
-  background-color: #ccc9;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
 }
 
 .container--item {
   background-color: #48e;
   margin: 10px;
-  text-align: center;
   color: #fff;
   font-weight: bold;
+}
+
+p {
+  font-weight: 100;
+  text-align: center;
+  padding: 9px;
+  font-size: 10px;
+}
+
+.extra {
+  text-align: center;
+}
+
+hr{
+  margin: 30px;
+}
+
+/* Fit */
+
+.container--fit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(1, 80px);
+  grid-auto-flow: row;
+  grid-auto-rows: 50px;
+  grid-auto-columns: 100px;
+  margin-top: 30px;
+  gap: 20px;
+  padding: 20px;
+  background-color: #ccc9;
+}
+
+/* Fill */
+
+.container--fill {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-template-rows: repeat(3,80px);
+  grid-auto-rows: 50px;
+  margin-top: 30px;
+  gap: 20px;
+  padding: 20px;
+  background-color: #ccc9;
+}
+
+/* Explanation */
+
+.exp p {
+  font-size: 18px;
+  text-align: justify;
+  padding: 10px;
+  margin: 5px
+}
+
+/* pictures */
+
+img{
+  max-width: 100%;
 }

@@ -7,38 +7,58 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container--main">
-      <section class="container--one">
-        <div class="container--item">1</div>
-        <div class="container--item">2</div>
-        <div class="container--item">3</div>
-        <div class="container--item">4</div>
-        <div class="container--item">5</div>
-        <div class="container--item">6</div>
-        <div class="container--item">7</div>
-        <div class="container--item">8</div>
-        <div class="container--item">9</div>
+    <section class="exp">
+      <p>
+        When the element are more 5, don't exist and specific number but when
+        you have many element both it'll work equals. But when there are just a
+        little element, Fit always trying to sort and realize all the space and
+        Fill never increase the width, yes created the space but don't make
+        realizable.
+      </p>
+    </section>
 
-        <div class="container--item">extra</div>
-        <div class="container--item">extra</div>
-        <div class="container--item">extra</div>
-      </section>
+    <section class="container">
+      <div class="container--item">
+        <p>When you have many element both are the same</p>
+      </div>
+      <div class="container--item">
+        <p>Both working as a wrap in flexbox</p>
+      </div>
+      <div class="container--item"><p>auto-fit/fill</p></div>
+      <div class="container--item">4</div>
+      <div class="container--item">5</div>
+      <div class="container--item">6</div>
+      <div class="container--item">7</div>
+      <div class="container--item">8</div>
+      <div class="container--item">9</div>
 
-      <!--[if IE]>
-        <hr />
+      <div class="container--item extra">extra</div>
+      <div class="container--item extra">extra</div>
+      <div class="container--item extra">extra</div>
+    </section>
 
-        <section class="container--two">
-          <div class="container--item">1</div>
-          <div class="container--item">2</div>
-          <div class="container--item">3</div>
-          <div class="container--item">4</div>
-          <div class="container--item">5</div>
-          <div class="container--item">6</div>
-          <div class="container--item">7</div>
-          <div class="container--item">8</div>
-          <div class="container--item">9</div>
-        </section>
-      <![endif]-->
-    </div>
+    <hr />
+
+    <section class="container--fit">
+      <div class="container--item"><p>Fit</p></div>
+      <div class="container--item">2</div>
+      <div class="container--item">3</div>
+      <div class="container--item">4</div>
+    </section>
+
+    <hr />
+
+    <section class="container--fill">
+      <div class="container--item"><p>Fill</p></div>
+      <div class="container--item">
+        <img src="../../x1_general/img/png/laptop_480.jpg" alt="" />
+      </div>
+      <div class="container--item">
+        <img src="../../x1_general/img/png/laptop_480.jpg" alt="" />
+      </div>
+      <div class="container--item">
+        <img src="../../x1_general/img/png/laptop_480.jpg" alt="" />
+      </div>
+    </section>
   </body>
 </html>
